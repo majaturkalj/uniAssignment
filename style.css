@@ -1,0 +1,154 @@
+p {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h2 {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* navigation bar styling*/
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #4169E1;
+    border-bottom: 3px solid #b7b7b7;
+    height: 60px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+	margin: 0;
+}
+
+li {
+    float: left;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #7B68EE on hover */
+li a:hover {
+    background-color: #7B68EE;
+}
+
+/* Create two columns that floats next to each other. The columns are of equal size */
+#container-right {
+    float: right;
+    width: 50%;
+	height: 50%;
+	display: block;
+	text-align: center;
+}
+
+#container-left {
+    float: left;
+    width: 45%;
+	display: block;
+	text-align: center;
+}
+
+/* Column on the left hand side below left column */
+#small-container{
+	float: left;
+	width: 45%;
+	text-align: center;
+	display: block;
+}
+
+/* Position of the buttons for the slide show */
+button {
+    margin-top: 140px;
+	float: left;
+	width: 80px;
+    height: 40px;
+	background-color: #4169E1;
+	color: white;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: bold;
+
+}
+
+/* Styling for contact page */
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+input[type=submit] {
+    background-color: #4169E1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	width: 100px;
+    height: 50px;
+}
+
+input[type=submit]:hover {
+    background-color: #7B68EE;
+}
+
+/* Style the container/contact section */
+.container {
+    background-color: #e6f3f7;
+	padding: 10px;
+}
+
+/* Create two columns that float next to each other */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+.footer {
+	font-weight: bold;
+	float: left;
+    padding: 20px;
+    text-align: center;
+	border-top: 2px solid #b7b7b7;
+	background-color: #ededed;
+	height: 70px;
+	width: 100%;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Picture holding the image and the text */
+.picture {
+    position: relative;
+    text-align: center;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size: 50px;
+	font-weight: bold;
+}
+	 

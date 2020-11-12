@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>FGM Tanzania</title>
+		
+		<script type="text/JavaScript" src="OpenLayers/OpenLayers.js"></script>
+		<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+		<script type="text/JavaScript" src="map1.js"></script>
+		
+		<style type="text/css">
+		#mymap {
+		width: 660px;
+		height: 600px;
+		border: thin dashed;
+		}
+		</style>
+	</head>
+	
+	<body onload="initMap()" style="background-color:#f6fbfc">
+	<div id="navbar">
+	<ul>
+		<li><a href="Index.html">Home</a></li>
+		<li><a href="FGM Tanzania.html">FGM Tanzania</a></li>
+		<li><a href="Map with us.html">Map with us</a></li>
+		<li><a href="Join us.html">Join us</a></li>
+		<li><a href="Contact.html">Contact</a></li>
+		<li style="float:right"><input type="text" placeholder="Search.."></li>
+	</ul>
+	</div>
+	
+	<p> <br /> </p>
+	
+	<div id="container-left">
+	<h2>FGM prevalence in Tanzania</h2>
+	<div id="mymap">
+	<!-- Map goes here -->
+	</div>
+	</div>
+	
+	<div id="container-right">
+	<h2>! ! ! Mapping Matters ! ! !</h2>
+	<p>Online mapping tool gives FGM runaways a path to help</p>
+	<p>We are helping to trace roads and buildings making navigable maps, 
+	which allow rescuers to get help to stranded girls.</p>
+	<p>"Nearly 600 international mappers have worked to help fill in the map around a safe house for girls running away from FGM and other gender-based violence located in Mugumu in the Serengeti district, Tanzania. 
+	Their work has resulted in the rescue of several girls and one arrest. Volunteers use satellite photographs on OpenStreetMap, a free crowd-sourced mapping service, to trace roads and buildings from 
+	the images, missing from printed and other online maps, and turn them into navigable maps. Other, more veteran mapping volunteers verify their peers’ work." <a href="https://www.theguardian.com/society/2017/feb/06/online-mapping-tool-gives-fgm-runaways-a-path-to-help" target="_blank" >(Source: Guardian)</a></p>
+	
+	<div class="picture">
+    <img src="mapping-to-fight-fgm.jpeg" title="Keep Mapping" height="350" width="600">
+    <a href="https://tasks.hotosm.org/contribute?difficulty=ALL&organisation=Tanzania%20Development%20Trust" target="_blank" style="color:#4169E1"><div class="centered">Keep Mapping</div></a>
+    </div>
+
+	
+	</div>
+	
+	<div class="footer">
+	<span id="date"></span>
+	<script>
+	var d = new Date();
+	document.getElementById("date").innerHTML = d.toDateString();
+	</script>
+	</div>
+	
+	<body>
+</html>

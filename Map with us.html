@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/JavaScript" src="slideshow.js"></script>
+		<title>Map with us</title>
+	</head>
+	<body style="background-color:#f6fbfc">
+	
+	<div id="navbar">
+	<ul>
+		<li><a href="Index.html">Home</a></li>
+		<li><a href="FGM Tanzania.html">FGM Tanzania</a></li>
+		<li><a href="Map with us.html">Map with us</a></li>
+		<li><a href="Join us.html">Join us</a></li>
+		<li><a href="Contact.html">Contact</a></li>
+		<li style="float:right"><input type="text" placeholder="Search.."></li>
+	</ul>
+	</div>
+	
+	<p> <br /> </p>
+	
+	<div id="container-left">
+	<h2>Mapping Tools</h2>
+	<h3>iD EDITOR</h3>
+	<p><a href="http://learnosm.org/en/beginner/id-editor/" target="_blank" >The iD editor</a> is browser-based OpenStreetMap editor. 
+	It is fast and easy to use, and allows mapping from various data sources such as satellite and aerial imageries, GPS, Field Papers or Mapillary.
+	<a href="http://learnosm.org/en/beginner/id-editor/" target="_blank" >The iD editor</a> is a great way to make small and easy changes that do not require the advanced features of JOSM, more advanced mapping editor. (Source: Learnosm.org 2018)</p>
+	<p> <br /> </p>
+	<h3>JOSM EDITOR</h3>
+	<p>Editing OpenStreetMap with JOSM is similar to editing with the iD editor. However, JOSM is a desktop application and it works a little bit differently. JOSM editor is a great tool for beginners who want to learn more.  (Source: Learnosm.org 2018)</p>
+	<p><a href="https://josm.openstreetmap.de/" target="_blank" >Download and Install JOSM</a></p>
+	<p> <br /> </p>
+	<h3>A SHORT PICTURE TUTORIAL</h3>
+	<div>
+	<button onclick="prev()"> Prev </button>
+    <img id="slider" src="building.jpg" border="1" align="left" width="400" height="310"/>
+    <button onclick="next()"> Next </button>
+	</div>
+	</div>
+	
+	<div id="container-right">
+	<h2>More instructions</h2>
+	<p>Basic iD Building, Road, Residential Area Mapping with iD Web Editor</p>
+	<iframe width="500" height="400" src="https://www.youtube.com/embed/Eg4mm7wu4RY">
+    </iframe>
+	<h2>Even more instructions</h2>
+	<p>JOSM for iD Users: Intro to JOSM</p>
+	<iframe width="500" height="400" src="https://www.youtube.com/embed/oWvovJEbf1s"></iframe>
+	</div>
+	
+	<div class="footer">
+	<span id="date"></span>
+	<script>
+	var d = new Date();
+	document.getElementById("date").innerHTML = d.toDateString();
+	</script>
+	</div>
+	
+	<body>
+</html>
